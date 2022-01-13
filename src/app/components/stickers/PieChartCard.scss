@@ -1,0 +1,9 @@
+.pie-chart-card-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .ant-card-body {
+        padding: 0px 2px 0px 2px !important;
+        width: 100%;
+    }
+}

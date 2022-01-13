@@ -1,0 +1,55 @@
+.ant-modal-header{
+    display: none
+}
+.modal-header .close {
+ display:none;
+}
+.ant-modal-content{
+ text-align:center;
+ border-radius: 20px;
+}
+
+.ant-btn{
+    border-radius: 8; border: 'none'; height: '39px';
+    background:#222831;
+    color: white;
+
+}
+
+.ant-btn:hover{
+    color:white;
+    background:#222831;
+}
+
+#outer
+{
+}
+.inner
+{   margin: 10px;
+    display: inline-block;
+}
+.second{
+	position: relative;
+   margin-top:-15px;
+}
+
+.imgleft{
+    margin-top:-35px
+}
+
+.fs-80 {
+    font-size: 80%
+}
+.fs-120 {
+    font-size: 120%
+}
+.fs-130 {
+    font-size: 130%
+}
+.fs-150 {
+    font-size: 150%
+}
+
+.fws-120{
+    font-weight: bold;
+} 

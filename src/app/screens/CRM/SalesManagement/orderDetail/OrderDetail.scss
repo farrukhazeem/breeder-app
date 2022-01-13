@@ -1,0 +1,68 @@
+.order-detail-main {
+    .order-info {
+        .order-info-item {
+            margin-top: 10px;
+        }
+    }
+
+    .order-summary-info {
+        .amount-col {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .item {
+            margin-top: 10px;
+        }
+        .ant-divider {
+            margin: 15px 0;
+        }
+    }
+    .installment-info {
+        .installment-main {
+            margin-top: 20px;
+            .installment-item {
+                margin-top: 10px;
+                .installment-item-value {
+                    margin-top: 10px;
+                }
+                .btn-edit {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+.edit-installment-modal {
+    // padding: 5px 10px 5px 10px;
+    .ant-modal-body {
+        padding: 25px 40px 25px 40px;
+    }
+    .actionbuttons {
+        margin-top: 15px;
+        .ant-space, .ant-space-item, Button {
+            width:100%;
+        }
+    }
+}
+
+.edit-installment-modal {
+    .customSelect {
+        font-weight: bold;
+    }
+    .switch-btn {
+        margin-top: 12px;
+        transform: rotate(-90deg);
+        .anticon-check {
+            transform: rotate(90deg);
+        }
+    }
+    .week-switcher {
+        text-align: center;
+        width: 20%;
+    }
+    .amount-text-box {
+        margin-top: 30px;
+    }
+}

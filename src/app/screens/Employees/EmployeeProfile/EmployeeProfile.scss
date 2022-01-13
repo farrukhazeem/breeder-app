@@ -1,0 +1,41 @@
+.sale-history-card{ 
+    margin-top: 10px;
+    p, .small-para {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+   .col-payment {
+       text-align: right;
+   }
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .active {
+      background-color: green;
+  }
+
+  .profile-block {
+      margin-top:25px;
+  }
+
+.activities {
+    margin-top: 20px;
+    p {
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+    .activityDate {
+        font-size: 10px;
+    }
+}
+
+.displayDropdown {
+    width: 100%;
+    text-align: right;
+}

@@ -1,0 +1,123 @@
+.app-radiobx {
+
+    .ant-radio-checked {
+        .ant-radio-inner {
+            border-color:var(--primary-color);
+            background-color: var(--primary-color);
+        }
+    }
+    
+    .ant-radio-inner::after {
+        background-color: white;
+    }
+
+    .ant-radio-inner:hover {
+        border-color:var(--primary-text)
+       }
+}
+
+
+
+.app-radiobx-yellow {
+
+    .ant-radio-checked {
+        .ant-radio-inner {
+            border-color:#fab845;
+            background-color:#fab845;
+        }
+    }
+    
+    .ant-radio-inner::after {
+        background-color: white;
+    }
+
+    .ant-radio-inner:hover {
+        border-color:var(--primary-text)
+       }
+}
+
+.app-radiobx-green {
+
+    .ant-radio-checked {
+        .ant-radio-inner {
+            border-color:#7be31d;
+            background-color:#7be31d;
+        }
+    }
+    
+    .ant-radio-inner::after {
+        background-color: white;
+    }
+
+    .ant-radio-inner:hover {
+        border-color:var(--primary-text)
+       }
+}
+
+.app-radiobx-red {
+
+    .ant-radio-checked {
+        .ant-radio-inner {
+            border-color:#ed4950;
+            background-color:#ed4950;
+        }
+    }
+    
+    .ant-radio-inner::after {
+        background-color: white;
+    }
+
+    .ant-radio-inner:hover {
+        border-color:var(--primary-text)
+       }
+}
+
+
+.yellow-circle{
+     text-align: center;
+      height: 80px;
+  width: 80px;
+  background-color: #fab845;
+  border-radius: 50%;
+  display: inline-block;
+  border:3px solid rgb(250, 246, 243);
+  position: absolute;
+  z-index:1;
+  line-height: 80px;
+}
+
+
+.green-circle{
+    text-align: center;
+  height: 60px;
+width: 60px;
+background-color: #7be31d;
+border-radius: 50%;
+display: inline-block;
+position: absolute;
+margin-top: 50px;
+margin-left: 55px;
+line-height: 60px;
+}
+.red-circle{
+     text-align: center;
+      height:40px;
+  width: 40px;
+  background-color: #ed4950;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  margin-top: 60px;
+margin-left: -10px;
+line-height: 40px;
+}
+
+
+.addmore-circle{
+     text-align: center;
+      height:20px;
+  width: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+}

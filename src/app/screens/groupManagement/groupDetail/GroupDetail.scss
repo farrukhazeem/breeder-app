@@ -1,0 +1,85 @@
+.gd-space-btn  {
+    width: 100%;
+    .ant-space-item {        
+        width: 100%;
+    }
+}
+
+.gd-animalcard-sp {
+    width:100%;
+    .ant-space-item {
+        width: 100%;
+        Input {
+            width: 70%;
+        }
+    }
+}
+.gd-items-card-btn {
+    width: 100%;
+}
+
+.gd-animal-card-item-space {
+    width: 100%;
+}
+
+.gd-animal-card-item-btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.groupdt-animal-add-remove {
+    margin-top: 50px;
+
+}
+
+.gd-items-card-list {
+    width: 100%;
+    margin-top: 50px;
+    .gd-items-card {
+        margin-top: 10px;
+    }
+}
+
+
+.gd-assign-emp-main {
+    margin-top: 40px;
+    .gd-emp-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .ant-card-body {
+            padding-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            width: 100%;
+        }
+        .removeEmp {
+            width: 100%;
+            margin-top: 24px;
+            padding: 5px;
+            border-top: 1px solid var(--primary-contrast-color);
+        }
+    }
+}
+
+.gd-assignemp-inner-main {
+    border: solid 1px var(--secondary-color);
+    border-radius: 10px;
+    padding: 15px 20px 15px 20px;
+    text-align: left;
+}
+.assignemp-modal {
+    // padding: 5px 10px 5px 10px;
+    .ant-modal-body {
+        padding: 25px 40px 25px 40px;
+    }
+    .actionbuttons {
+        margin-top: 15px;
+        .ant-space, .ant-space-item, Button {
+            width:100%;
+        }
+    }
+}

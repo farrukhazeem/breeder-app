@@ -1,0 +1,42 @@
+
+  .StripeElement {
+  border-radius: 8px;
+  border: 1px solid #d9d9d9 !important;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+/* 
+  .StripeElement {
+    width: 100%;
+    padding: 11px 15px 11px 0;
+    height:     65px;
+  }
+  .StripeElement .__PrivateStripeElement, .StripeElement iframe {
+      height: 100% !important; 
+  }
+
+  .CardField .CardBrandIcon-container {
+    margin-top: 8px;
+    font-size: 30px;
+  } 
+
+  .StripeElement .CardField-number {
+    border: solid 1px #A7ACB2;
+    border-radius: 5px;
+    padding: 6px;
+    margin-left: 14px;
+  }
+
+  .StripeElement .CardField-expiry {
+    border: solid 1px #A7ACB2;
+    border-radius: 5px;
+    padding: 6px;
+    transform: none;
+    margin-left: 10px;
+  }
+ */
+
+
+ .ant-col.textAlign-xs-box.ant-col-xs-24.ant-col-lg-12{
+text-align: initial;
+ }

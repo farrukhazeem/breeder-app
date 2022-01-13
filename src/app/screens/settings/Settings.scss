@@ -1,0 +1,193 @@
+.setting-radio-btn-switch {
+    width: 550px;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    margin: auto;
+    .ant-radio-group {
+        margin-bottom: 0px !important;
+    }
+    .ant-radio-button-wrapper {
+        border: none;
+        padding: 2px 2px 2px 2px;
+        background-color:#eeeeee;
+        width:142px;
+        text-align: center;
+        height: auto;
+        border-radius: 20px;
+    }
+    .ant-radio-button-wrapper:hover {
+        //background-color: var(--secondary-color);
+        color: black;
+    }
+    .ant-radio-button-wrapper:focus-within{
+        box-shadow: none;
+    }
+    .ant-radio-button-wrapper::before {
+        height: 0;
+        padding: 0;
+    }
+    .ant-radio-button-wrapper.ant-radio-button-wrapper-checked{
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
+}
+
+.setting-social-media-rendrer {
+    margin-top:30px;
+    .link-unlink {
+        text-align: right;
+    }
+    .card {
+        margin-top:10px;
+    }
+    .card-list {
+        margin-top: 20px;
+    }
+}
+
+.setting-notification-renderer {
+    margin-top: 30px;
+    .setting-notification-list {
+        
+        .list {
+            margin-top: 20px;
+        }
+        .switch-notif {
+            text-align: right;
+        }
+    }
+}
+
+
+.setting-accounts-renderer {
+    margin-top: 30px;
+    .business-info-list {
+
+        .bi-row  {
+            margin-top:20px;
+        }
+        .bi-value {
+            text-align: 
+            right;
+        }
+    }
+    .business-info-payment-method {
+        margin-top: 20px;
+        .key-name {
+            font-size: smaller;
+            font-weight: bold;
+        }
+    }
+}
+
+
+.setting-radio-btn-switch-two {
+    width: 280px;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    margin: auto;
+    .ant-radio-group {
+        margin-bottom: 0px !important;
+    }
+    .ant-radio-button-wrapper {
+        border: none;
+        padding:2px 0px 2px 0px;
+        background-color:#eeeeee;
+        width:145px;
+        text-align: center;
+        height: auto;
+        border-radius: 20px;
+    }
+    .ant-radio-button-wrapper:hover {
+        //background-color: var(--secondary-color);
+        color: black;
+    }
+    .ant-radio-button-wrapper:focus-within{
+        box-shadow: none;
+    }
+    .ant-radio-button-wrapper::before {
+        height: 0;
+        padding: 0;
+    }
+    .ant-radio-button-wrapper.ant-radio-button-wrapper-checked{
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
+}
+
+
+
+.setting-radio-btn-switch-profile {
+    width: 320px;
+    border-radius: 20px;
+    background-color: white;
+    margin: auto;
+    .ant-radio-group {
+        margin-bottom: 0px !important;
+        height: 45px !important;
+    }
+    .ant-radio-button-wrapper {
+        border: none;
+        padding:6px 0px 2px 0px;
+        background-color:white;
+        width:85px;
+        text-align: center;
+        height: 45px;
+        border-radius: 20px;
+    }
+    .ant-radio-button-wrapper:hover {
+        //background-color: var(--secondary-color);
+        color: black;
+    }
+    .ant-radio-button-wrapper:focus-within{
+        box-shadow: none;
+    }
+    .ant-radio-button-wrapper::before {
+        height: 0;
+        padding: 0;
+    }
+    .ant-radio-button-wrapper.ant-radio-button-wrapper-checked{
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
+}
+
+
+
+
+
+
+
+.setting-radio-btn-switch-admin {
+    width: 280px;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    margin: auto;
+    .ant-radio-group {
+        margin-bottom: 0px !important;
+    }
+    .ant-radio-button-wrapper {
+        border: none;
+        padding: 2px 2px 2px 2px;
+        background-color:#eeeeee;
+        width:142px;
+        text-align: center;
+        height: auto;
+        border-radius: 20px;
+    }
+    .ant-radio-button-wrapper:hover {
+        //background-color: var(--secondary-color);
+        color: black;
+    }
+    .ant-radio-button-wrapper:focus-within{
+        box-shadow: none;
+    }
+    .ant-radio-button-wrapper::before {
+        height: 0;
+        padding: 0;
+    }
+    .ant-radio-button-wrapper.ant-radio-button-wrapper-checked{
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
+}

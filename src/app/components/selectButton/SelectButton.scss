@@ -1,0 +1,32 @@
+.app-selectbtn-chkbx{
+  
+    .ant-checkbox-checked {
+      
+        color: white;
+        .ant-checkbox-inner
+        {
+            color: var(--primary-contrast-color);
+
+            background-color: var(--primary-color);
+            border-color: var(--secondary-color) !important;
+        }
+    }
+    .ant-checkbox-inner {
+        border-radius: 10px;
+        color: var(--primary-color);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 30px;
+        background-color: white;
+        border-color: var(--secondary-color) !important;
+        margin-top: 3px;
+    }
+  
+    .ant-checkbox-inner::after {
+        transform: none;
+        border:none;
+        
+    }
+}

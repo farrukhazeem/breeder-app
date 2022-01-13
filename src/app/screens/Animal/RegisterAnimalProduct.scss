@@ -1,0 +1,25 @@
+.animal-input-custom {
+    margin-top: 20px;
+    margin-left: 10px;
+    span {
+        cursor: pointer;
+      }
+      a {
+        position: relative;
+        overflow: hidden;
+        font-weight: bold;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      span:hover a {
+        color: red;
+      
+      }
+      a + input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+       
+      }
+}

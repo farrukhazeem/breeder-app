@@ -1,0 +1,28 @@
+.login-body {
+    // background-image: url('../../../../assets/images/backgroundLogin.jpg');
+    background-image: url('../../../../assets/images/backgroundSignup.jpg');
+
+    background-size: cover;
+    background-position: center;
+    .loginContainer {
+        //text-align: left;
+        position:absolute;
+        left:95px
+    }
+    
+    .login-form-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .button-right {
+        width: 100%;
+        margin-top: 10px;
+        float: right;
+    }
+    
+    .loginMain {
+        background-color: white;
+        border-radius: 50px 0px 0px 50px;
+    }    
+}

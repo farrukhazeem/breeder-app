@@ -1,0 +1,43 @@
+.app-sider {
+    .logo {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .logoTitle {
+        transition: all 0.2s;
+    }
+    .ant-menu-item-selected {
+        background-color: transparent !important;
+        font-weight: bolder;
+        border-left: solid white 4px;
+        padding-left: 20px !important;
+        // color: var(--primary-contrast-color) !important;
+        a {
+            // color: var(--primary-contrast-color) !important;
+        }
+        &::after {
+            border-right: 0px;
+        }
+    }
+
+    .ant-menu {
+        border-right: 0px;
+    }
+
+    .ant-menu-item {
+        margin-top: 0px;
+        margin-bottom: 0px !important;
+        padding-top: 4px;
+        padding-bottom: 4px ;
+        height: 48px;
+        &:hover {
+            // background-color: var(--secondary-color) !important;
+            font-weight: bolder;
+          
+        }
+        color: var(--primary-contrast-color) !important;
+        a {
+            color: var(--primary-contrast-color) !important;
+        }
+    }
+}

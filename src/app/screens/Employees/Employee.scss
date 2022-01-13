@@ -1,0 +1,39 @@
+.emp-input-custom {
+    margin-top: 15px;
+    margin-left: 10px;
+    span {
+        cursor: pointer;
+      }
+      a {
+        position: relative;
+        overflow: hidden;
+        font-weight: bold;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      span:hover a {
+        color: red;
+      
+      }
+      a + input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+       
+      }
+}
+
+
+.ant-modal-confirm .ant-modal-confirm-btns {
+    float: none;
+    margin-top: 24px;
+}
+
+.ant-modal-confirm-confirm .ant-modal-confirm-body > .anticon {
+    color: #faad14;
+    display: none;
+}
+.ant-modal-confirm-body-wrapper{
+  margin-left: -22px;
+}

@@ -1,0 +1,200 @@
+    .animal-profile-body {
+
+        .profile-main {
+            .profile-space {
+                width: 100%;
+                line-height: 2em;
+                .ant-space-item{ 
+                    width: 100%;
+                }
+            }
+            .profile-item {
+                width: 100%;
+                display:flex;
+                justify-content: space-between;
+            }
+        }
+
+        .info {
+            .animal-profile-info-body {
+                width: 70%;
+                margin:auto;
+                margin-top: 70px;
+                .info-card {
+                .ant-card-body {
+                    text-align: center;
+                
+                    .avatar-image {
+                        width:100px;
+                        height: 100px;
+                        border-radius: 100px;
+                        overflow: hidden;
+                            margin: auto;
+                        img  {
+                            width:100%;
+                        }
+                    }
+                }
+                }
+            }
+        }
+        .ant-carousel {
+            div{
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .dot-carousel {
+            .slick-active{
+                button {
+                    width: 26px !important; 
+                }
+            }
+            li {
+                button {
+                    border-radius: 10px;
+                    height: 13px;
+                    width: 13px;
+                    background: none;
+                    border: solid 2px #fff;
+                }
+            }
+        }
+        .ant-carousel .slick-slide {
+            text-align: center;
+        
+            // line-height: 160px;
+            // background: #364d79;
+            overflow: hidden;
+        }
+        
+        .ant-carousel .slick-slide h3 {
+            color: #fff;
+        }
+
+
+        .animal-row {
+            // background-image: url('../../../../assets/images/backgroundSignup.jpg');
+            // background-color: blue;
+            background-size: cover;
+            background-position: center;
+            // .loginContainer {
+            //     //text-align: left;
+            //     position:absolute;
+            //     left:95px
+            // }
+            
+            // .login-form-button {
+            //     width: 100%;
+            //     margin-top: 10px;
+            // }
+            
+            // .button-right {
+            //     width: 100%;
+            //     margin-top: 10px;
+            //     float: right;
+            // }
+            
+            // .loginMain {
+            //     background-color: white;
+            //     border-radius: 50px 0px 0px 50px;
+            // }    
+        }
+        // background-image: url('../../../../assets/images/backgroundLogin.jpg');
+    
+    }
+
+
+    .setting-radio-btn-switch {
+        width: 553px;
+        box-shadow: 0 8px 10px -6px gray;
+        border-radius: 20px;
+        background-color: #eeeeee;
+        margin: auto;
+        .ant-radio-group {
+            margin-bottom: 0px !important;
+        }
+        .ant-radio-button-wrapper {
+            border: none;
+            padding: 2px 2px 2px 2px;
+            background-color:#eeeeee;
+            width:142px;
+            text-align: center;
+            height: auto;
+            border-radius: 20px;
+        }
+        .ant-radio-button-wrapper:hover {
+            //background-color: var(--secondary-color);
+            color: black;
+        }
+        .ant-radio-button-wrapper:focus-within{
+            box-shadow: none;
+        }
+        .ant-radio-button-wrapper::before {
+            height: 0;
+            padding: 0;
+        }
+        .ant-radio-button-wrapper.ant-radio-button-wrapper-checked{
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+        }
+    }
+
+    .carousel-slider {  
+        position: relative;
+        top: 40%;
+        .image-container{
+            width: 150px;
+            margin-right: 20px;   
+            img {
+                padding: 5px;
+                width: 100%;
+                margin-right: 10px;
+                border-radius: 20px;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+    .setting-radio-btn-switch-businessprofile {
+        width: 279px;
+        box-shadow: 0 8px 10px -6px gray;
+        border-radius: 20px;
+        background-color: #eeeeee;
+        margin: auto;
+        .ant-radio-group {
+            margin-bottom: 0px !important;
+        }
+        .ant-radio-button-wrapper {
+            border: none;
+            padding: 2px 2px 2px 2px;
+            background-color:#eeeeee;
+            width:142px;
+            text-align: center;
+            height: auto;
+            border-radius: 20px;
+        }
+        .ant-radio-button-wrapper:hover {
+            //background-color: var(--secondary-color);
+            color: black;
+        }
+        .ant-radio-button-wrapper:focus-within{
+            box-shadow: none;
+        }
+        .ant-radio-button-wrapper::before {
+            height: 0;
+            padding: 0;
+        }
+        .ant-radio-button-wrapper.ant-radio-button-wrapper-checked{
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+        }
+    }

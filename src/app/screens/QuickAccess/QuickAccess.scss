@@ -1,0 +1,26 @@
+.quickAccessBody {
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+
+  .qa-row {
+    .qa-col {
+      margin-top: 10px;
+      .qa-card {
+        padding: 30px;
+        cursor: pointer;
+        &:hover {
+          background-color: var(--primary-color);
+          .qa-card-space-title {
+            color: var(--primary-contrast-color) !important;
+          }
+        }
+        .qa-card-space {
+          .qa-card-space-title {
+            margin-top: 6px;
+          }
+        }
+      }
+    }
+  }
+}

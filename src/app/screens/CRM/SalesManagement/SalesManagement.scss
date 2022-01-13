@@ -1,0 +1,50 @@
+.sale-mag-upcomming-payment-body, .sale-mag-sale-history-body, .sale-mag-customers-body, .sale-mag-invoice-body {
+    @media only screen and (min-width: 1170px) {
+        .search-input {
+            width: 220px;   
+        }            
+    }
+}
+
+.order-card {
+    margin-top: 10px;
+    .action-detail {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+.sale-mag-main {
+    .opration-col {
+        margin-top: 15px;
+        text-align: right;
+    }
+}
+
+
+.sales-mg-data-grid {
+    width: 100%;
+    margin-top: 20px;
+    .action-btn-col {
+        text-align: right;
+    }
+}
+
+.ant-tabs-bar {
+    border-bottom: none;
+}
+
+
+.dashboard-barchart {
+    width: 100%;
+}
+
+.sale-mag-sale-history-body {
+    .chart {
+        margin-top: 20px;
+        border: solid 1px #f0f0f0;
+        padding: 20px 20px 12px 20px;
+        border-radius: 30px;
+    }
+}

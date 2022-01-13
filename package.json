@@ -1,0 +1,86 @@
+{
+  "name": "web-app",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "12.16.3",
+    "npm": "6.14.4"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.1.0",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.9.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.2.5",
+    "antd-img-crop": "^3.12.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "bulma": "^0.9.1",
+    "bulma-helpers": "^0.3.12",
+    "copy-to-clipboard": "^3.3.1",
+    "enquire-js": "^0.2.1",
+    "eventemitter3": "^4.0.7",
+    "express": "^4.17.1",
+    "firebase": "^7.21.1",
+    "generate-password": "^1.5.1",
+    "html2canvas": "^1.0.0-rc.7",
+    "http-proxy-middleware": "^1.0.5",
+    "js-file-download": "^0.4.12",
+    "jspdf": "^2.1.1",
+    "material-design-icons": "^3.0.1",
+    "moment": "^2.26.0",
+    "node-sass": "^4.14.1",
+    "numeral": "^2.0.6",
+    "order-id": "^2.1.0",
+    "pdf-viewer-reactjs": "^2.1.1",
+    "react": "^16.13.1",
+    "react-cookie-consent": "^6.2.3",
+    "react-dom": "^16.13.1",
+    "react-facebook-login": "^4.1.1",
+    "react-image-video-lightbox": "^2.0.2",
+    "react-instagram-login": "^1.4.0",
+    "react-papaparse": "^3.9.0",
+    "react-payment-inputs": "^1.1.7",
+    "react-phone-number-input": "^3.0.25",
+    "react-player": "^2.7.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-share": "^4.3.1",
+    "react-simple-image-viewer": "0.0.4",
+    "react-simple-invoice": "^1.0.7",
+    "react-slick": "^0.27.12",
+    "react-twitter-login": "^1.2.3",
+    "recharts": "^1.8.5",
+    "redux": "^4.0.5",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "simple-react-video-thumbnail": "0.0.7",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.2.1",
+    "universal-cookie": "^4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
